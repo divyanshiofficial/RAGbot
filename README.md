@@ -29,3 +29,22 @@ The goal is to enhance document comprehension and Q&A accuracy using embeddings 
    ```bash
    git clone https://github.com/divyanshiofficial/RAGBot.git
    cd RAGBot
+2. **Create and Activate a Virtual Environment**
+   ```bash
+   python -m venv venv
+   # On Windows
+   venv\Scripts\activate
+   # On macOS/Linux
+   source venv/bin/activate
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+4. **Add Gemini API Key**
+   Create a .env file in the root directory with the following line:
+   ```bash
+   GEMINI_API_KEY=your_api_key_here
+5. **Run the Application**
+   ```bash
+   streamlit run app.py
+
+   
